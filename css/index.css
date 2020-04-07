@@ -11,9 +11,13 @@ body{
     margin: auto;
 }
 nav{
-    background-color: #EEE;
+    font-weight: bold;
     color: white;
-    height: 100px;
+    background-color: darkcyan;
+    height: 0;
+    position: relative;
+    z-index: 10;
+    /*todo position: relative; and z-index  */
 }
 
 nav .brand{
@@ -46,7 +50,7 @@ nav .links li:hover
 /*header*/
 .header{
     background: url("../images/header.jpg");
-    height: 800px;
+    background-size: cover;
 }
 
 
@@ -77,10 +81,4 @@ nav .links li:hover
 .slider li span{
     color: mediumseagreen;
 }
-a.bx-prev,
-a.bx-next
-{
-    background-color: chocolate;
-    color: crimson;
-    border: 3px solid cornflowerblue;
-}
+
