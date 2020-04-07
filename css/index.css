@@ -13,7 +13,7 @@ body{
 nav{
     background-color: #EEE;
     color: white;
-    height: 0;
+    height: 100px;
 }
 
 nav .brand{
@@ -47,4 +47,40 @@ nav .links li:hover
 .header{
     background: url("../images/header.jpg");
     height: 800px;
+}
+
+
+/*slider*/
+.bx-wrapper{
+    height: 100% !important;
+    background: none;
+    border: 0;
+}
+
+
+.bx-viewport{
+    text-align: center;
+    background: none;
+    height: 100% !important;
+}
+.slider{
+    text-align: center;
+}
+.slider li{
+    display: block;
+    padding-top: 360px;
+    color: white;
+}
+.slider li h2{
+    font-size: 50px;
+}
+.slider li span{
+    color: mediumseagreen;
+}
+a.bx-prev,
+a.bx-next
+{
+    background-color: chocolate;
+    color: crimson;
+    border: 3px solid cornflowerblue;
 }
