@@ -1,5 +1,4 @@
 $('.links li').on('click', function () {
-    console.log('dddddddddd');
     $(this).addClass('active');
     $(this).siblings().removeClass('active');
 });
@@ -19,4 +18,13 @@ $(function () {
     $('.header').width($(window).width());
 });
 
+
+//smooth scroll
+$('.links a').on('click', function () {
+    var dataValue = $(this).data('value');
+    console.log(dataValue);
+    $('html').animate({
+        scrollTop: $('#'+dataValue).offset().top
+    }, 1000);
+});
 

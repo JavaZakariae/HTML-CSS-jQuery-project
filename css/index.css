@@ -39,8 +39,13 @@ nav .links li{
     margin: 10px;
     text-transform: uppercase;
 }
-nav .links li.active,
-nav .links li:hover
+nav .links li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav .links li.active a,
+nav .links li a:hover
 {
     color: mediumseagreen;
     border-bottom: 1px solid mediumseagreen;
@@ -50,7 +55,7 @@ nav .links li:hover
 /*header*/
 .header{
     background: url("../images/header.jpg");
-    background-size: cover;
+    background-size: 100% 100%;/*cover*/
 }
 
 
@@ -60,8 +65,6 @@ nav .links li:hover
     background: none;
     border: 0;
 }
-
-
 .bx-viewport{
     text-align: center;
     background: none;
@@ -82,3 +85,7 @@ nav .links li:hover
     color: mediumseagreen;
 }
 
+/*services*/
+.services{
+    height: 500px;
+}
