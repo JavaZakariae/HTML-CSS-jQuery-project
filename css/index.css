@@ -61,17 +61,18 @@ nav .links li a:hover
 
 /*slider*/
 .bx-wrapper{
-    height: 100% !important;
+    /*height: 100% !important;*/
     background: none;
     border: 0;
 }
 .bx-viewport{
-    text-align: center;
+    /*text-align: center;*/
     background: none;
     height: 100% !important;
 }
 .slider{
     text-align: center;
+    background-color: red;
 }
 .slider li{
     display: block;
@@ -88,4 +89,20 @@ nav .links li a:hover
 /*services*/
 .services{
     height: 500px;
+    margin-top: 50px;
+}
+
+.special-heading{}
+
+.special-heading:after{
+    content: "";
+    display: block;
+    width: 130px;
+    border: 1px solid cornflowerblue;
+    margin-top: 5px;
+    left: 0px;
+
+}
+.fix-float{
+    clear: both;
 }
