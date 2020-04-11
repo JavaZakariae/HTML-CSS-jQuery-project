@@ -88,9 +88,39 @@ nav .links li a:hover
 
 /*services*/
 .services{
-    height: 500px;
     margin-top: 50px;
 }
+
+.services .item{
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-top: 75px;
+}
+
+.services .item i{
+    color: mediumseagreen;
+    float: left;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.services .item .info{
+    float: left;
+    width: 70%;
+}
+
+.services .item .info h3{
+    font-weight: normal;
+}
+
+.services .item .info p{
+    color: dimgrey;
+
+}
+
+
 
 .special-heading{}
 
