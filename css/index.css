@@ -4,6 +4,7 @@
 body{
     margin: 0;
     padding: 0;
+    height: 4000px;
 }
 
 .container{
@@ -120,8 +121,6 @@ nav .links li a:hover
 
 }
 
-
-
 .special-heading{}
 
 .special-heading:after{
@@ -135,4 +134,34 @@ nav .links li a:hover
 }
 .fix-float{
     clear: both;
+}
+.our-team{
+    /*background-color: chocolate;*/
+    margin-top: 50px;
+}
+
+.box:first-child{
+    float: left;
+    width: 30%;
+    height: 175px;
+    padding-right: 35px;
+    text-align: left;
+}
+
+
+.box{
+    float: left;
+    width: 17%;
+    height: 175px;
+    text-align: right;
+    /*border: 2px solid red;*/
+}
+
+.box:not(:first-child){
+    margin-top: 25px;
+}
+
+.box img{
+    width: 80%;
+    height: 80%;
 }
