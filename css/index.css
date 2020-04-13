@@ -165,3 +165,33 @@ nav .links li a:hover
     width: 80%;
     height: 80%;
 }
+
+.testimonial{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+}
+.testimonial .container{
+    margin-top: 20px;
+    color: white;
+}
+.testimonial .container h2{
+    padding-top: 50px;
+}
+
+.testimonial .container h2:after{
+    margin: auto;
+    width: 200px;
+    margin-top: 10px;
+    border: 2px solid darkgoldenrod;
+}
+.testimonial  q{
+    font-size: 18px;
+    line-height: 2;
+}
+
+.testimonial p{
+    color: darkgoldenrod;
+    font-size: 25px;
+}
