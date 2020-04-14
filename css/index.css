@@ -195,3 +195,10 @@ nav .links li a:hover
     color: darkgoldenrod;
     font-size: 25px;
 }
+.testimonial .custom-slider .active{
+    display: block;
+}
+
+.testimonial .custom-slider >div{
+    display: none;
+}
