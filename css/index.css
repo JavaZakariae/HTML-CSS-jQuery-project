@@ -57,6 +57,7 @@ nav .links li a:hover
 .header{
     background: url("../images/header.jpg");
     background-size: 100% 100%;/*cover*/
+    max-height: 700px;
 }
 
 
@@ -201,4 +202,43 @@ nav .links li a:hover
 
 .testimonial .custom-slider >div{
     display: none;
+}
+
+
+/*project section*/
+.project{
+    padding: 80px 0;
+    height: 1000px;
+}
+
+.project h2{
+    font-weight: normal;
+}
+
+.project ul li{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    border-radius: 5%;
+    color: gray;
+}
+.project ul li:hover{
+    background-color: mediumspringgreen;
+}
+
+.project ul li.selected{
+    background-color: mediumspringgreen;
+}
+
+.project .container{
+    /*background-color: chocolate;*/
+}
+.project .gallery{
+    text-align: center;
+}
+
+.project .container img{
+    /*background-color: red;*/
+    width: 25%;
+    margin: 10px;
 }
