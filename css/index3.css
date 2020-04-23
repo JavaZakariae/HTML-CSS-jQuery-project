@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    height: 3000px;
+}
+
 .container{
     width: 1200px;
     margin: auto;
@@ -102,4 +107,36 @@
     left: 0;
     width: 100%;
     text-align: center;
+}
+.header .arrow:hover{
+    color: orange;
+}
+.feature{
+    padding: 45px;
+}
+
+.box{
+    width: 23%;
+    float: left;
+    text-align: center;
+}
+.box i{
+    border: 1px solid darkcyan;
+    margin-bottom: 25px;
+    color: coral;
+}
+
+.box i:hover{
+    color: darkcyan;
+    background: coral;
+}
+
+.box h3{
+    margin-bottom: 10px;
+}
+
+.box p{
+    line-height: 1.4;
+    color: darkblue;
+    font-weight: normal;
 }
