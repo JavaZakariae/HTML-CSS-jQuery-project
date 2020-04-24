@@ -140,3 +140,42 @@ body{
     color: darkblue;
     font-weight: normal;
 }
+
+.subscribe{
+    background:url("../images/gods-background.jpg");
+    background-size: cover;
+    color: #ffffff;
+
+}
+
+.subscribe form{
+    margin: auto;
+    padding: 50px 0;
+    min-width: 25%;
+    text-align: center;
+}
+
+
+.subscribe form input[type="email"]{
+    padding: 4px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 7%;
+    border: 1px solid coral;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+    color: darkcyan;
+}
+.subscribe form button{
+    padding: 8px;
+    width: 120px;
+    border: 1px solid coral;
+    color: darkcyan;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+.subscribe form button:hover{
+    background-color: coral;
+}
