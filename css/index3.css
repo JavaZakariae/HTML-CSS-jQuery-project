@@ -179,3 +179,64 @@ body{
 .subscribe form button:hover{
     background-color: coral;
 }
+
+.our-work{
+    margin-top: 25px;
+}
+
+.our-work h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.our-work p{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.our-work .items-box{
+    overflow: hidden;
+}
+
+.our-work .items-box .item {
+    float: left;
+    width: 32%;
+    margin-left: 1.3%;
+    overflow: hidden;
+    position: relative;
+}
+
+.our-work .items-box .item .over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(247,96,14,0.4);
+    color: white;
+    display: none;
+}
+.our-work .items-box .item:hover .over{
+    display: inline-block;
+}
+
+.our-work .items-box .item img{
+    height: 400px;
+    padding: 5px;
+}
+.show-more{
+    color: cadetblue;
+    background: none;
+    border: 1px solid coral;
+    width: 100px;
+    font-weight: bold;
+    padding: 5px;
+}
+.show-more:hover{
+    background-color: coral;
+    color: darkcyan;
+}
+
+.hiden{
+    display: none;
+}
