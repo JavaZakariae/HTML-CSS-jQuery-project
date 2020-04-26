@@ -292,3 +292,52 @@ body{
 {
     color: darkorange;
 }
+
+.our-team{
+    margin-top: 50px;
+}
+.team{
+    margin-top: 50px;
+    overflow: hidden;
+    margin-bottom: 150px;
+}
+.team .person{
+    float: left;
+    width: 21%;
+    height: 350px;
+    color: #9da195;
+    margin: 2%;
+}
+.team .person:hover img{
+    filter: grayscale(0);
+    border: 1px solid goldenrod;
+}
+
+
+.team .person:hover p{
+    color: goldenrod;
+}
+.team .person:hover h3{
+    color: black;
+}
+
+.team .person img{
+    height: 75%;
+    width: 100%;
+    border-radius: 75%;
+    filter: grayscale(1);
+}
+
+.team .person p{
+    color: #9da195;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.team .person .social-icons i{
+    margin-top: 5px;
+    color: darkcyan;
+}
+.team .person .social-icons i:hover{
+    color: gold;
+}
