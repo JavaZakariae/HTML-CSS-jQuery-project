@@ -299,7 +299,7 @@ body{
 .team{
     margin-top: 50px;
     overflow: hidden;
-    margin-bottom: 150px;
+    margin-bottom: 75px;
 }
 .team .person{
     float: left;
@@ -340,4 +340,61 @@ body{
 }
 .team .person .social-icons i:hover{
     color: gold;
+}
+
+.contact{
+    background: url("../images/background.jpg");
+    background-size: cover;
+    color: white;
+    padding: 25px;
+}
+.contact form{
+    padding: 10px;
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.contact form input[type="email"],
+.contact form input[type="text"]
+{
+    margin-top: 20px;
+    width: 45%;
+    padding: 10px;
+}
+
+.contact form input[type="email"]{
+    float: left;
+    margin-right: 9%;
+}
+
+.contact form textarea{
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+}
+
+
+.contact form .info button{
+    padding: 8px;
+    width: 120px;
+    border: 1px solid coral;
+    color: darkcyan;
+    font-weight: bold;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+.contact form .info button:hover{
+    background-color: coral;
+    color: green;
+    font-weight: bold;
+    border: 1px solid darkgoldenrod;
+}
+.contact i{
+    color: deepskyblue;
+}
+.contact i:hover{
+    color: darkgoldenrod;
 }
