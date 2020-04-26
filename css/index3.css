@@ -62,6 +62,7 @@ body{
     overflow: hidden;
     padding: 20px 0;
     width: 100%;
+    font-size: 20px;
 }
 .header nav .title{
     float: left;
@@ -397,4 +398,20 @@ body{
 }
 .contact i:hover{
     color: darkgoldenrod;
+}
+.footer{
+    position: relative;
+    bottom: 25px;
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer .copyright{
+    float: left;
+    text-transform: capitalize;
+}
+
+.footer .design{
+    float: right;
 }
